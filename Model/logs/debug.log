@@ -1,0 +1,52 @@
+2021-05-17 23:35:16,609 [DEBUG]: 
+Running with the following configs:
+	train_data : dataset/re/train.txt
+	valid_data : dataset/re/test.txt
+	vocab : dataset/vocab.txt
+	shuffle : True
+	bag_size : 10
+	batch_size : 32
+	max_seq_length : 128
+	entpair_as_bag : False
+	h_dim : 768
+	pcnn_h_dim : 230
+	n_layers : 12
+	n_heads : 12
+	dropout : 0.1
+	pf_dim : 3072
+	type_vocab_size : 2
+	max_position_embeddings : 512
+	layer_norm_eps : 1e-05
+	embedding_dim : 100
+	pos_dim : 5
+	pooling : max
+	kernel_size : 3
+	padding_size : 1
+	hid_act : gelu
+	pooler_act : tanh
+	add_pooler : True
+	lr : 0.5
+	optimizer : adam
+	conv_l2 : 0
+	pooling_l2 : 0.002
+	lr_decay : 0.9
+	lr_decay_patience : 6
+	epochs : 100
+	save_dir : ./saved_models
+	save_epochs : 5
+	early_stop : True
+	patience : 10
+	resume : False
+	resume_path : ./saved_models/model_best.pt
+	log_step : 20
+	cuda : True
+	config_file : ./config.json
+	seed : 1234
+
+
+2021-05-17 23:35:16,610 [DEBUG]: Config saved to file ./config.json
+2021-05-17 23:35:16,624 [DEBUG]: -----------read data-----------
+2021-05-17 23:35:17,935 [DEBUG]: dataset/re/train.txt has data 184245
+2021-05-17 23:35:18,619 [DEBUG]: -----------read data-----------
+2021-05-17 23:35:19,255 [DEBUG]: dataset/re/test.txt has data 78956
+2021-05-17 23:35:24,361 [DEBUG]: Train Epoch: 1, 0/2262 (0%), Loss: 3.337025, acc: 0.031247, pos_acc: 0.999900
