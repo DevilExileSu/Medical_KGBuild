@@ -3,6 +3,7 @@
 
 ### Model
 主要存放BioBERT预训练模型，以及crf命名实体识别，远程监督关系抽取模型。
+
 医学领域远程监督数据对齐，https://github.com/DevilExileSu/UMLS-MetaMap-Aligned
 ```bash
 Flask                1.1.1 
