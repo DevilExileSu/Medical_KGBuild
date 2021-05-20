@@ -1,6 +1,4 @@
-﻿# pytorch-template
-
-pytorch使用模板，简化并规范模块编写。
+# BioBERT实现命名实体识别和远程监督关系抽取
 
 ```bash
 ├── api                             
